@@ -1,6 +1,13 @@
+Detail:
+
 "One of my key projects is a Library Management System developed using Java, Spring Boot, Spring Data JPA, Thymeleaf, and MySQL following the MVC architecture.
 The motivation behind this project was to digitize library operations such as managing books, member records, and borrowing transactions, which are often handled manually and can lead to inefficiencies and record management issues.
 The application consists of three main modules: Book Management, Member Management, and Book Issue Management. Librarians can add, update, delete, and view books, register members, and maintain issue records.
 From an architectural perspective, I followed a layered MVC design with Controller, Service, Repository, and Entity layers. Controllers handle requests, Services contain business logic, Repositories manage database interactions using Spring Data JPA, and Entities represent database tables.
 I used Spring Data JPA for CRUD operations and entity relationship management, while Thymeleaf was used for dynamic server-side web pages. I also implemented validation and proper relationships between books, members, and issue records to maintain data consistency.
 Through this project, I gained hands-on experience with Spring Boot, JPA/Hibernate, dependency injection, database design, and enterprise application development."
+
+Simple 
+"I developed a Library Management System using Spring Boot, Spring Data JPA, Thymeleaf, and MySQL following MVC architecture. 
+The system helps librarians manage books, members, and book issue/return operations. I implemented separate Controller, Service, Repository, and Entity layers, used JPA for database operations, and Thymeleaf for dynamic web pages. 
+The project gave me hands-on experience with full-stack development and enterprise application design."

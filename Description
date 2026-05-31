@@ -17,3 +17,97 @@ The objective of this project was to provide a centralized platform where studen
 The platform allows users to register, log in securely, browse available courses, view tutor details, enroll in courses, and manage their profiles. Administrators can manage courses and tutor information.
 I designed the application using separate Controller, Service, Repository, and Entity layers to maintain a clean and scalable architecture. Spring Security was used for authentication and authorization, Spring Data JPA and Hibernate handled database operations, and Thymeleaf was used to generate dynamic web pages.
 Through this project, I gained hands-on experience in Spring Boot development, MVC architecture, database design, dependency injection, Spring Security, Hibernate, and building secure enterprise-level web applications.
+
+1. Project Title
+Online E-Learning Platform
+An online learning management system developed using Java, Spring Boot, Spring Security, Spring Data JPA, Thymeleaf, and MySQL that enables students to discover courses, learn from tutors, and manage enrollments through a secure web application.
+
+2. Why I Chose This Project
+Interview Answer
+I chose this project because online education has become an important part of modern learning. Many students need a centralized platform where they can easily discover courses, learn from experienced tutors, and manage their enrollments.
+Existing platforms provide these features, but I wanted to understand how such systems are built from scratch using enterprise technologies like Spring Boot and Spring Security.
+This project helped me learn real-world software development concepts such as authentication, authorization, database design, REST APIs, file management, and layered architecture.
+
+The project is useful for:
+Students who want to browse and enroll in courses.
+Tutors who want to showcase their courses.
+Educational institutions that need a centralized learning platform.
+
+4. Tech Stack Used
+Backend
+Java
+Spring Boot
+Frameworks
+Spring MVC
+Spring Security
+Spring Data JPA (Hibernate)
+Frontend
+Thymeleaf
+HTML
+CSS
+Bootstrap
+Database
+MySQL
+Build Tool
+Maven
+Additional Concepts
+MVC Architecture
+Layered Architecture
+DTO Pattern
+REST APIs
+Authentication & Authorization
+File Upload Management
+Interview Answer
+
+I used Java and Spring Boot as the core backend technologies. Spring MVC was used to implement the MVC architecture, Spring Security was used for authentication and authorization, and Spring Data JPA with Hibernate simplified database interactions.
+
+For the frontend, I used Thymeleaf templates integrated with HTML and CSS. MySQL was used as the relational database, and Maven was used for dependency management and project build automation.
+
+5. Challenges Faced and How I Solved Them
+This is the section that impresses interviewers the most.
+Challenge 1: Spring Security Configuration
+
+Problem
+Initially, I faced issues configuring authentication and authorization because protected pages were inaccessible even after successful login.
+
+Solution
+I studied the Spring Security filter chain and configured custom UserDetailsService and UserPrincipal classes to load user information correctly from the database.
+
+Learning
+I gained a deep understanding of authentication flow and role-based access control.
+
+Challenge 2: Managing Entity Relationships
+Problem
+Designing relationships between Users, Courses, Tutors, and Enrollments was challenging because incorrect mappings caused redundant data and retrieval issues.
+
+Solution
+I used JPA relationship annotations and carefully designed the database schema to maintain proper associations between entities.
+
+Learning
+I learned how ORM frameworks map Java objects to relational databases.
+
+Challenge 3: File Upload Management
+Problem
+Uploaded files were stored successfully, but users could not access them through the browser.
+
+Solution
+I implemented a custom resource handler using WebMvcConfigurer and mapped the upload directory to a public URL path.
+
+Learning
+I understood how Spring Boot serves static and external resources.
+
+Challenge 4: Layered Architecture Design
+Problem
+Initially, business logic was becoming mixed with controller logic, making the application difficult to maintain.
+
+Solution
+I refactored the application into Controller, Service, Repository, and Entity layers following enterprise architecture principles.
+
+Learning
+This improved maintainability, scalability, and code reusability.
+
+10/10 Closing Statement
+
+Overall, this project helped me understand how enterprise-level web applications are developed using Spring Boot. I gained practical experience in security, database management, REST API development, MVC architecture, and software design principles. It strengthened both my backend development skills and my understanding of real-world application architecture.
+
+Through this project, I gained hands-on experience in building a scalable and secure enterprise application.
